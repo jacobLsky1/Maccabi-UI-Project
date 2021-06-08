@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/maccabiButton"
+        android:layout_width="10dp"
+        android:layout_height="70dp"
+        android:background="@drawable/round_button_blue"
+        android:drawableTop="@drawable/ic_sun_24"
+        android:drawableTint="#FFFFFF"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center|center_horizontal"
+        android:paddingVertical="10dp"
+        android:text="זימון וביטול תורים"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:clickable="false"/>
+
+</FrameLayout>

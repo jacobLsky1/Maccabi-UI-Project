@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/quickView"
+    android:title="מבט מהיר" />
+    <item
+        android:id="@+id/medicalRecords"
+        android:icon="@drawable/ic_med_history_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="תיק רפואי"
+        />
+    <item
+        android:id="@+id/apiontmants"
+        android:icon="@drawable/ic_apointment_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="זימון וביטול תורים" />
+    <item
+        android:id="@+id/notifications"
+        android:icon="@drawable/ic_ask_docter_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="בקשות והודעות מרופאים"/>
+    <item
+        android:id="@+id/findHelp"
+        android:icon="@drawable/ic_search_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="איתור שירות"/>
+    <item
+        android:id="@+id/SOS"
+        android:icon="@drawable/ic_sos_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="רפואה דחופה"/>
+    <item
+        android:id="@+id/nature"
+        android:icon="@drawable/ic_nature_health_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="רפואה משלימה"/>
+    <item
+        android:id="@+id/new_apointmant"
+        android:icon="@drawable/ic_add_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="זימון תור חדש"/>
+    <item
+        android:id="@+id/forms"
+        android:icon="@drawable/ic_money_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="החזרים והתחייבויות"/>
+    <item
+        android:id="@+id/childDocter"
+        android:icon="@drawable/ic_chat_docter_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="שיחה עם רופא הילדים"/>
+    <item
+        android:id="@+id/docterWithoutCard"
+        android:icon="@drawable/ic_card_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="ביקור ללא כרטיס"/>
+    <item
+        android:id="@+id/trips"
+        android:icon="@drawable/ic_flight_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="ביטוח נסיעות לחול"/>
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_phone_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="צור קשר"/>
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_baseline_help_outline_24"
+        android:iconTint="@color/maccabiBlue"
+        android:title="עזרה"/>
+
+</menu>

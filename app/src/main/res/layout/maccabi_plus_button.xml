@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/maccabiPlusButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/add_button"
+        android:drawableTop="@drawable/ic_add_24"
+        android:drawableTint="@color/maccabiPurple"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center|center_horizontal"
+        android:paddingVertical="23dp"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+
+</FrameLayout>
