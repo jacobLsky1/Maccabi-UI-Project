@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
@@ -35,6 +36,7 @@ class MainActivity : AppCompatActivity(),
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        Log.i("git","1 change")
         val toolbar:Toolbar = findViewById(R.id.tool_bar)
         setSupportActionBar(toolbar)
 
