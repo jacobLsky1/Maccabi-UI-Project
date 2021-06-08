@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity(),
         setContentView(R.layout.activity_main)
 
         Log.i("git","1 change")
-        fawoeifbawpeufhawp
         val toolbar:Toolbar = findViewById(R.id.tool_bar)
         setSupportActionBar(toolbar)
 
