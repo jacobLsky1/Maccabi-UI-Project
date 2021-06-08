@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity(),
         Log.i("git","1 change")
         Log.i("git","change 2")
         Log.i("git","this line will be merged")
+        Log.i("git","this line is from github")
         val toolbar:Toolbar = findViewById(R.id.tool_bar)
         setSupportActionBar(toolbar)
 
